@@ -1,1 +1,15 @@
 # Use-of-Price-Earnings-ratio-for-Value-Investing-Python-
+
+Use of Price-Earnings ratio for Value Investing (Python)
+
+The aim is to develop an investment strategy using relevant signals obtained from financial statements and test whether an investor can earn alpha returns when investing in firms with low Price-to-Earnings (PE) ratio. The investment hypothesis postulates that low PE firms tend to generate higher returns compared to high PE firms. The F-score framework was adopted from Piotroki’s paper to distinguish companies with strong fundamentals based on the aggregated binary scores across 9 fundamental signals in the areas of (1) Profitability (2) Financial Leverage and (3) Operational Efficiency. The aggregated score is designed to measure the overall quality and the strength of the firm’s financial position. It also determines the long and short portfolio that was adopt in the investment strategy.
+
+For the purpose of the research, financial data was obtained from Compustat, Quandl and Yahoo Finance! for the period January 2002 to December 2020 (i.e. 19 years). The research was focused on tradeable universe of low PE ratio vis-à-vis industry peers and computed F Scores for these companies based on nine fundamental signals. 
+
+Investment strategy was back tested using a rolling validation technique on three different portfolio (long, short and a combination of long and short) to determine whether there is a shift in mean distribution earned by an investor. The rolling back test involves forming our investment portfolio in July, in which the monthly returns will be compounded over the ensuing 12 months to obtain annual returns. The investment portfolio is rebalanced in the same month for the subsequent 18 years based on the F-score criteria.
+
+The results shows that the mean return earned by a low PE investor can be increased by at least 2.9% annually if he adopted a long strategy through the selection of financially strong low PE firms. On the other hand, a long-short strategy returned a compounded annual return of 6.28%, slightly underperforming the Russell 3000 Index’s returns of 6.81%. This underperformance is largely driven by inferior returns of 2.10% from the short strategy while being offset by the long strategy’s outperformance of 9.17%.
+
+Whilst statistically it is not significant to invest in low PE firms with strong fundamentals, there is however, an indication based on performance metrics that a long-only portfolio does generate a higher return as compared to the market. This is in line with the investment hypothesis that high F-score firms outperforms the market while low F-score firms underperform the market. 
+
+In addition, the results also suggest that the hypothesis that PE ratio, as an alternative to Book-Market ratio as used in Piotroski’s paper, can effectively distinguish underperformers through the contextual use of relevant historical accounting information. Finally, as a recommendation for further studies, factoring company size as a screening criteria to further distinguish between high versus low returns firm can be considered. 
